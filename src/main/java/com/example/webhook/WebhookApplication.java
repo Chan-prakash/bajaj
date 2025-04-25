@@ -20,7 +20,7 @@ public class WebhookApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        // Call your WebhookService to perform the task
+        
         webhookService.processWebhook();
     }
 }
